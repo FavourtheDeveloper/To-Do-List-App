@@ -15,6 +15,8 @@ function addList() {
 
     newList.addEventListener('click', function() {
         newList.style.textDecoration = "line-through";
+        newList.style.color = "red";
+        
     })
 
     newList.addEventListener('dblclick', function() {
