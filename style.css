@@ -23,7 +23,10 @@
     text-align: left;
     cursor: pointer;
     font-size: 30px;
-    color: white
+    color: blue;
+    background-color: whitesmoke;
+    margin: 20px;
+    border-radius: 20px;
 }
 
 #list li:hover{
@@ -31,9 +34,6 @@
    font-weight: bolder;
 
 }
-
-
-
 
 h1{
     font-size: 70px;

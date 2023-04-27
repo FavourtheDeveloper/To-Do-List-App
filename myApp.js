@@ -7,6 +7,8 @@ function addList() {
     } else {
     let todo = inputText.value;
     let newList = document.createElement("li");
+
+   
     newList.innerText = todo;
     list.appendChild(newList);
     inputText.value = "";
@@ -27,3 +29,8 @@ inputText.addEventListener("keyup", function(e) {
             addList();
         }
     });
+
+
+
+    
+
